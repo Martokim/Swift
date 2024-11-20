@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<!--Unique elements should be contained here -->
+
+
+<!--create a heading of the page -->
+<!--create a bootstrap courosel with three images-->
+<!--create a paragraph using lorem with 60 words-->
+<!--crete a bootstrap jumbotron-->
+<!--create a paragraph using lorem with 60 words-->
+<h1>This is the heading of the index page</h1>
+<div class="col-sm-6 col-md-8">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../static/images/image_1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../../static/images/image_2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../../static/images/image_3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet
+  atque commodi deleniti earum eius eligendi est explicabo fuga fugit, id illo incidunt ipsa iusto nisi,
+  nobis placeat quae quaerat saepe tenetur totam voluptate. Culpa fugit harum nam nostrum quasi quisquam
+  quos repellendus repudiandae sint vel? Accusantium dolore, eius enim explicabo facilis illum modi odit
+  quisquam ratione sed similique?</p>
+
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+
+
+
+{% endblock %}
